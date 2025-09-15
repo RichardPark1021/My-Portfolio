@@ -1,12 +1,30 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### About Me
+I am a passionate and creative developer who loves bringing ideas to life through thoughtful, well-designed web applications. With a deep interest in both technology and design, I strive to build websites that aren't just functional but also visually engaging and imaginative.
 
-Currently, two official plugins are available:
+I enjoy exploring new tools and frameworks, constantly improving my skills to stay up-to-date in this fast-moving field. What truly drives me is the creative process—transforming concepts into interactive experiences that leave a lasting impression.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Skills
+1. Java
+2. Javascript
+3. React
+4. Node.js
+5. Express.js
+6. HTML
+7. CSS
+8. Tailwind
+9. Bootstrap
+10. PHP
+11. MongoDB
+12. MySQL
+13. Git
+14. Jira
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Projects
+1. [Walking Trail App](https://ggcwalkingtrail.netlify.app/)
+2. [Gas Hauler](https://github.com/RichardPark1021/GasHauler-Project)
+3. [Pumpkin Harvest](https://github.com/RichardPark1021/Pumpkin-Harvest)
+4. [Ramen Website](https://ramen-app.netlify.app/)
+5. [Travel Website](https://korea-app.netlify.app/)
+6. [Portfolio Website](https://richardpark.netlify.app/)
