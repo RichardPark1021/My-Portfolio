@@ -1,0 +1,81 @@
+.bubbles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.bubble {
+  position: absolute;
+  bottom: -100px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(22, 192, 235); /* light blue */
+  border-radius: 50%;
+  animation: rise 10s infinite ease-in;
+  opacity: 0.6;
+}
+
+/* Add some randomization with nth-child */
+.bubble:nth-child(1) {
+  left: 10%;
+  width: 25px;
+  height: 25px;
+  animation-duration: 8s;
+}
+.bubble:nth-child(2) {
+  left: 20%;
+  animation-duration: 12s;
+}
+.bubble:nth-child(3) {
+  left: 30%;
+  width: 15px;
+  height: 15px;
+  animation-duration: 10s;
+}
+.bubble:nth-child(4) {
+  left: 40%;
+  animation-duration: 14s;
+}
+.bubble:nth-child(5) {
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  animation-duration: 9s;
+}
+.bubble:nth-child(6) {
+  left: 60%;
+  animation-duration: 11s;
+}
+.bubble:nth-child(7) {
+  left: 70%;
+  width: 30px;
+  height: 30px;
+  animation-duration: 13s;
+}
+.bubble:nth-child(8) {
+  left: 80%;
+  animation-duration: 15s;
+}
+.bubble:nth-child(9) {
+  left: 90%;
+  animation-duration: 7s;
+}
+.bubble:nth-child(10) {
+  left: 95%;
+  width: 20px;
+  height: 20px;
+  animation-duration: 10s;
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-120vh) scale(1.2);
+    opacity: 0;
+  }
+}
